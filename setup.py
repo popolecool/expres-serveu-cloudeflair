@@ -11,4 +11,4 @@ import subprocess
 with open("commands.txt", "r") as fh:
     cmds = fh.readlines()
     for item in cmds:
-    subprocess.call(item.split(" "))
+        subprocess.call(item.split(" "))
