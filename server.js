@@ -12,7 +12,7 @@ access the body of your request.
 app.use(bodyParser.json({extended: true}));
 
 // We assign the port number 8080.
-const port = 443;
+const port = 3000;
 
 // When a GET request is made to the "/" resource we return basic HTML.
 app.get("/", (req, res) => {
